@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Lucrare de atestat</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+    <script src="javascript/script.js"></script>
+</head>
+
+<body>
+<div class="container">
+    <header class="header">
+    </header>
+
+    <nav class="menu">
+        <a href="../index.html">Prima pagina</a>
+        <a href="../argument/argument.html">Argument</a>
+        <a>Platforma Arduino</a>
+        <a href="../contact/contact.html">Contact</a>
+    </nav>
+
+    <div class="title">
+        <h1>Platforma Arduino</h1>
+    </div>
+    <div class="text">
+    <h2>Prezentare placa Arduino</h2>
+    <p>
+        Arduino UNO este o platforma de procesare open-source, bazata pe software si hardware flexibil si simplu de
+        folosit.
+    </p>
+    <p>
+        Consta intr-o platforma de mici dimensiuni construita in jurul unui procesor de semnal si este capabila de a
+        prelua date din mediul inconjurator printr-o serie de senzori si de a efectua actiuni asupra mediului prin
+        intermediul luminilor, motoarelor, servomotoare si alte tipuri de dispozitive mecanice.
+    </p>
+    <h2>Hardware</h2>
+
+    <p>
+        O plăcuță Arduino este compusă dintr-un microcontroler Atmel AVR de 8 , 16 sau 32 biți cu componente
+        complementare care facilitează programarea și încorporarea în alte circuite.
+    </p>
+    <p>
+        Plăcuțele Arduino din prezent sunt programate prin USB, având integrate cipuri de conversie USB-serial.
+        Plăcuța Arduino are expuși mulți dintre pinii de intrare/ieșire ai microcontrolerului, pentru ca aceștia să
+        fie
+        folosiți de alte circuite.
+    </p>
+    <p>
+        UNO oferă 14 pini digitali de intrare/ieșire, dintre care 6 pot produce semnale PWM și 6 intrări analogice
+        care,
+        de asemenea, pot fi folosite ca intrări/ieșiri digitale.
+    </p>
+    <p>
+        <u>Led IR brick</u></p>
+    <p>
+        Led-ul brick este o componenta care emite lumina in spectrul infrarosu (elementul activ in orice telecomanda
+        clasica de TV, VCR, aer conditionat, etc). Folosind senzorul de telecomanda in infrarosu poti detecta
+        codurile emise de telecomanda ta, si folosind acest led-ul brick poti controla aceste dispozitve direct din
+        Arduino, simuland telecomanda obisnuita.
+
+    </p>
+    <p>
+        <u>Senzor TSOP brick</u></p>
+    <p>
+        Senzorul TSOP este conectat la Arduino, el va prelua comenzile RC5 de la telecomanda, Arduino le va decoda
+        si le va afisa in monitorul serial.
+    </p>
+    <p>
+        Astfe vom obtine diverse informatii cu privire la codul receptionat:
+    <ul>
+        <li> protocolul decodat</li>
+        <li> codul butonului</li>
+        <li>o serie de valori Raw (perioadele semnalelor)</li>
+    </ul>
+    </p>
+    <p>
+        Dupa conectarea pieselor cu placa arduino o voi conecta prin cablul USB la un calculator si ii voi introduce
+        codul folosid programul IRecvDump Arduino. Dupa introducera codului in placa, aceeasta va prelua comenzile
+        transmise de mine prin intermediul telecomenzii. Aceeasta transmite semnale infrarosii senzorului TSOP care
+        le transmite placii ce prelucreaza codul , permitandu-ne sa schimbam canalul televizorului.
+        In proiectul aceesta, scopul telecomenzii este de a transmite un semnal in interiorul panoului din programul
+        IRecvDump Arduino si de a aprinde led-ul IR brick.
+        Circuitul mai are in componena sa un butonului brick, aceesta fiind conectat prin intermediul uni
+        Breadboard.
+    </p>
+    <h2>Conexiunile</h2>
+    <ul>
+        <li> Senzor TSOP pin VCC la Arduino 5V</li>
+        <li>Senzor TSOP pin GND la Arduino GND</li>
+        <li>Senzor TSOP pin OUT la Arduino pin digital 11</li>
+        <li>LED IR IN la Arduino pin digital 3</li>
+        <li>LED IR GND la Arduino GND</li>
+    </ul>
+    <p>
+        Exista foarte multe tipuri de telecomenzi si fiecare telecomanda emite semnale intr-un mod diferit fata de
+        celelalte. Practic fiecare telecomanda are propriul protocol si lucrul asta se datoreaza unui numar foarte
+        mare
+        de echipamente audio/video si de producatorii acestora.
+    </p>
+
+    <h2>Telecomandă IR</h2>
+    <p>
+        Telecomandă IR compatibilă Arduino:
+    <ul>
+        <li>Ultra subțire pentru control de la distanță fără fir în ( 38 KHZ ) la modul de recepție în infraroșu.
+        </li>
+        <li>Are 20 taste funcționale.</li>
+        <li>Foarte potrivită pentru dispozitive de control de interior.</li>
+
+        <li>Se poate folosi la toate tipurile de roboți sau alte dispozitive de lucru interactive.</li>
+    </ul>
+    <p>
+        Sunt o gramada de lucruri ce pot fi controlate cu ajutorul unei telecomenzi. De la televizoare(dooh) pana la
+        lumini, roboti, etc, toate pot fi controlate cu o telecomanda. Problema de care ne lovim este: ce piese ne sunt
+        de folos si cum facem sa citim codurile pe care le trimite o telecomanda.
+    </p>
+    <p>
+        Piese necesare:
+    <ul>
+        <li>O telecomanda</li>
+        <li> Un LED cu infrarosu
+        <li> Un senzor cu infrarosu</li>
+        <li>Placa Arduino, breadboard, cablu USB de conectat placa Arduino la calculator – se presupune ca aveti deja
+        </li>
+    </ul>
+</div>
+
+<footer>
+    &copy;2019
+    <spam class="separator">|</spam>
+    Desing by Ionut Folvaiter
+</footer>
+</div>
+</body>
