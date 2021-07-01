@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Lucrare de atestat</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="javascript/script.js"></script>
+</head>
+
+<body>
+<div class="container">
+    <header class="header">
+    </header>
+
+    <nav class="menu">
+        <a href="../index.html">Prima pagina</a>
+        <a href="../argument/argument.html">Argument</a>
+        <a href="../about/about.html">Platforma Arduino</a>
+        <a>Contact</a>
+    </nav>
+
+    <div class="title">
+        <h1>Contact</h1>
+    </div>
+    <div class="text">
+        <div>Candidat: <b>Ionut Lucian Folvaiter</b></div>
+        <div>Clasa: <b>12 G</b></div>
+        <div>An școlar: <b>2018-2019</b></div>
+        <div>Email: <b>Completeaza aici</b></div>
+        <div>Numar de telefon: <b>Completeaza aici</b></div>
+
+    </div>
+    <footer>
+        &copy;2019
+        <spam class="separator">|</spam>
+        Desing by Ionut Folvaiter
+    </footer>
+</div>
+</body>
