@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Lucrare de atestat</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="javascript/script.js"></script>
+</head>
+
+<body>
+<div class="container">
+    <header class="header">
+    </header>
+
+    <nav class="menu">
+        <a href="../index.html">Prima pagina</a>
+        <a>Argument</a>
+        <a href="../about/about.html">Platforma Arduino</a>
+        <a href="../contact/contact.html">Contact</a>
+    </nav>
+
+    <div class="title">
+        <h1>Argument</h1>
+    </div>
+    <div class="text">
+        <p> Societatea informatiilor poate fi gasita la intersectia dintre ramurile cu date dinsticte, ale
+            telecomunicatiilor si calculatoarelor, grupate in jurul informatiilor digitale.</p>
+        <p>
+            Privita separat, fiecare dintre aceste ramuri au contribuit in timpul ultimului secol la o crestere a
+            standardului nostru de viata, lasand in urma schimbarile pe scara larga.
+        </p>
+        <p>
+            Calculatoarele ne ajuta sa dam viata ideilor-capteaza cuvinte, redau imagini, controleaza alte masini. Ele sunt
+            o extensie a posibilitatilor umane care ne permit sa ne depasim limitele.
+        </p>
+        <p>
+            Acest proiect vine in intampinarea acestei idei, oferind o posibilitate de a invata si aprofunda cunostintele
+            necesre oricarui tanar din ziua de azi.
+        </p>
+        <p>
+            Deoarece am dorit sa aprofundez cunostinte in domeniul robotici am utilizat platforma Arduino pentru ca ofera o
+            interfata usor de utilizat pentru elevi.
+        </p>
+        <p>
+            Pentru a-mi îmbunatati cunostintele în domeniul IT, electronice, matematice si digitale mi-am ales pentru
+            lucrarea de atestat tema Telecomanda universala Arduino in infrarosu.
+        </p>
+    </div>
+    <footer>
+        &copy;2019
+        <spam class="separator">|</spam>
+        Desing by Ionut Folvaiter
+    </footer>
+</div>
+</body>
