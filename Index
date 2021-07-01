@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Lucrare de atestat</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="javascript/script.js"></script>
+</head>
+
+<body>
+<div class="container">
+    <header class="header">
+    </header>
+
+    <nav class="menu">
+        <a>Prima pagina</a>
+        <a href="./argument/argument.html">Argument</a>
+        <a href="./about/about.html">Platforma Arduino</a>
+        <a href="./contact/contact.html">Contact</a>
+    </nav>
+
+    <div class="title">
+        <h1>
+            <stronger>Colegiul Tehnic “Gheorghe Cartianu” Piatra-Neamț</stronger>
+        </h1>
+
+        <h2>Lucrare de atestat</h2>
+        <h2>Pentru obținerea certificatului de competențe profesionale</h2>
+        <h1>Telecomanda universală Arduino în infraroșu</h1>
+
+    </div>
+    <div class="infos">
+        <span>
+            <div>Candidat: <b>Ionuț Lucian Folvaiter</b></div>
+            <div>Clasa: <b>12 G</b></div>
+            <div>An școlar: <b>2018-2019</b></div>
+        </span>
+        <span>
+            <div>Îndrumător: <b>prof. Horlescu Gabriela-Brândușa</b></div>
+            <div>Specializare: <b> Tehnician operator tehnică de calcul</b></div>
+        </span>
+    </div>
+
+    <footer>
+        &copy;2019
+        <span class="separator">|</span>
+        Desing by Ionut Folvaiter
+    </footer>
+</div>
+</body>
